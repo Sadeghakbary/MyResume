@@ -2,7 +2,7 @@ import { Box, Typography } from "@mui/material";
 
 export default function About() {
   return (
-    <Box sx={{ display: "flex", flexDirection: "column", alignItems: "flex-end", padding: 2 }}>
+    <Box sx={{ display: "flex", flexDirection: "column", alignItems: "flex-start", padding: 2 }}>
       <Typography variant="h5" gutterBottom>
         About me
       </Typography>

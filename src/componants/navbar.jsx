@@ -1,4 +1,6 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
+import InstagramIcon from '@mui/icons-material/Instagram';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 import { AppBar, Toolbar, Typography, Box, Avatar } from "@mui/material";
 
 export default function Navbars() {
@@ -16,9 +18,15 @@ export default function Navbars() {
           <Avatar
             alt="Logo"
             src="src/assets/OIP.jpg"
-            sx={{ width: 100, height: 100 }}
+            sx={{ width: 100, height: 100 , marginTop : '1rem'}}
           />
-          <GitHubIcon sx={{ color: "white", marginTop: 1 }} />
+          <div style={{display:"flex" , justifyContent:"space-between"}}>
+            <GitHubIcon sx={{ color: "white", marginTop: 1 }} />
+            <InstagramIcon sx={{ color: "white", marginTop: 1 }} />
+            <YouTubeIcon sx={{ color: "white", marginTop: 1 }} />
+          </div>
+
+
         </Box>
 
         <Box sx={{ display: "flex", flexDirection: "column", color: "white" }}>
