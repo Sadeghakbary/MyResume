@@ -26,7 +26,7 @@ export default function Navbars() {
             src="src/assets/profile.jpg"
             sx={{ width: 100, height: 100, marginTop: '1rem' }}
           />
-          <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <div style={{ display: "flex", justifyContent: "space-between" , marginBottom:"0.4rem" }}>
             <GitHubIcon sx={{ color: "white", marginTop: 1 }} />
             <InstagramIcon sx={{ color: "white", marginTop: 1 }} />
             <YouTubeIcon sx={{ color: "white", marginTop: 1 }} />
